@@ -1,0 +1,48 @@
+#main-pic {
+  border: 5px solid #555;
+  display: block;
+  height: auto;
+  margin: auto;
+  width: 35%;
+  margin-bottom: 10px;
+}
+
+
+#flavor {
+  text-align: center;
+  border: 7px solid pink;
+  background-color: #5DE2E7;
+  margin-left: 95px;
+  margin-right: 125px;
+  margin-bottom: 30px;
+  font-family: "Dancing Script", cursive;
+  width:30%;
+  margin: auto;
+}
+
+#flavor-title {
+  text-align: center;
+  margin-left: 95px;
+  margin-right: 125px;
+  font-family: "Dancing Script", cursive;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ff4dd2;
+    font-family: "Dancing Script", cursive;
+}
+
+.ingredients {
+  display: none;
+}
+
+.flavor:hover + .ingredients {
+  display: block;
+  color: #D773D7;
+  text-decoration-style: wavy;
+
+
+}
